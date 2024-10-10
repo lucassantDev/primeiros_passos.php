@@ -1,0 +1,31 @@
+
+body{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+}
+
+.cartoes{
+   min-width: 250px;
+   height: 250px;
+   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+   border-radius: 10px;
+   padding: 10px;
+   margin-bottom: 40px;
+   margin-right: 50px;
+   transition: 0.2s;
+}
+
+h1{
+   width: 100%;
+
+}
+
+.cartoes:hover{
+   cursor: pointer;
+   background-color: black;
+   color: yellow;
+   transition: 0.2s;
+   transform: scale(1.1);
+}
+
