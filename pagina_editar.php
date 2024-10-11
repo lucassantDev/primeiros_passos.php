@@ -26,7 +26,8 @@ try{
 ?>
 
 <h1>Editar item</h1>
-    <form action="inserir.php" method="post">
+    <form action="atualizar.php" method="post">
+        <input type="text" name='codigo' value='<?php echo $codigo;?>' hidden> <br>
         <label>Descrição: </label> <br>
         <textarea name="descricao_digitada" cols="30" rows="3">
             
